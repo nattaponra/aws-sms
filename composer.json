@@ -1,0 +1,24 @@
+{
+    "name": "nattaponra/aws-sms",
+    "description": "Sdk for easy connect aws sms service with PHP language.",
+    "homepage": "https://pushandmotion.com",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nattapon Rakthong",
+            "email": "nattapon@3dsinteractive.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "~3.36.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "AwsSms\\":"src"
+        }
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
